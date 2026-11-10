@@ -1,0 +1,26 @@
+# JARVIS Configuration
+# Override any defaults here. See config.py for all available options.
+
+assistant:
+  name: JARVIS
+  wake_word: jarvis
+  voice: Samantha   # macOS TTS voice (try: Daniel, Karen, Moira, Tessa)
+  greeting: "JARVIS online. How can I assist you, sir?"
+
+audio:
+  sample_rate: 16000
+  record_duration: 5
+  silence_threshold: 0.01
+  silence_duration: 1.5
+
+stt:
+  engine: whisper
+  whisper_model: base    # tiny=fastest, base=good, small=better, medium/large=best
+
+llm:
+  provider: gemini
+  model: gemini-2.0-flash
+
+tts:
+  engine: macos
+
