@@ -1,0 +1,26 @@
+{"command": "open Spotify", "expected_tool": "open_app", "expected_args": {"name": "Spotify"}}
+{"command": "launch Safari", "expected_tool": "open_app", "expected_args": {"name": "Safari"}}
+{"command": "can you open Google Chrome", "expected_tool": "open_app", "expected_args": {"name": "Google Chrome"}}
+{"command": "close Spotify", "expected_tool": "quit_app", "expected_args": {"name": "Spotify"}}
+{"command": "quit Safari", "expected_tool": "quit_app", "expected_args": {"name": "Safari"}}
+{"command": "set volume to 50", "expected_tool": "set_volume", "expected_args": {"level": 50}}
+{"command": "volume 80", "expected_tool": "set_volume", "expected_args": {"level": 80}}
+{"command": "mute the sound", "expected_tool": "mute_volume", "expected_args": {}}
+{"command": "unmute", "expected_tool": "unmute_volume", "expected_args": {}}
+{"command": "what is the volume", "expected_tool": "get_volume", "expected_args": {}}
+{"command": "open youtube.com", "expected_tool": "open_url", "expected_args": {"url": "https://youtube.com"}}
+{"command": "go to github.com", "expected_tool": "open_url", "expected_args": {"url": "https://github.com"}}
+{"command": "open mail.google.com", "expected_tool": "open_url", "expected_args": {"url": "https://mail.google.com"}}
+{"command": "find my resume", "expected_tool": "find_file", "expected_args": {"filename": "resume"}}
+{"command": "search for budget spreadsheet", "expected_tool": "find_file", "expected_args": {"filename": "budget"}}
+{"command": "what's the capital of France?", "expected_tool": null, "expected_args": null}
+{"command": "who created you?", "expected_tool": null, "expected_args": null}
+{"command": "explain quantum computing in one sentence", "expected_tool": null, "expected_args": null}
+{"command": "open Notes", "expected_tool": "open_app", "expected_args": {"name": "Notes"}}
+{"command": "launch Terminal", "expected_tool": "open_app", "expected_args": {"name": "Terminal"}}
+{"command": "turn volume up to 75 percent", "expected_tool": "set_volume", "expected_args": {"level": 75}}
+{"command": "mute", "expected_tool": "mute_volume", "expected_args": {}}
+{"command": "open reddit.com", "expected_tool": "open_url", "expected_args": {"url": "https://reddit.com"}}
+{"command": "close Terminal", "expected_tool": "quit_app", "expected_args": {"name": "Terminal"}}
+{"command": "how are you today JARVIS?", "expected_tool": null, "expected_args": null}
+

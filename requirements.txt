@@ -1,9 +1,24 @@
+# JARVIS Dependencies
+# Architected for macOS native voice assistant (Track B: Cloud Quality at Low Cost)
+
+# ─── Audio Input & Processing ───────────────────────────────────────────
 sounddevice>=0.5.0
 numpy>=2.0.0
 scipy>=1.15.0
-anthropic>=0.40.0
-openai>=1.60.0
-groq>=0.18.0
 pynput>=1.7.0
+
+# ─── Speech-to-Text (STT) ────────────────────────────────────────────────
+deepgram-sdk>=3.0.0
+groq>=0.18.0
+openai>=1.60.0
+
+# ─── LLM Brain ───────────────────────────────────────────────────────────
+anthropic>=0.40.0
+
+# ─── Tools & Web Capabilities ────────────────────────────────────────────
+duckduckgo-search>=6.0.0
+requests>=2.31.0
+
+# ─── Configuration & System ──────────────────────────────────────────────
 python-dotenv>=1.0.0
 pyyaml>=6.0
